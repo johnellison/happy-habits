@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="414px" height="506px" viewBox="0 0 414 506" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg</title>
+    <g id="Sprint-I" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(0.000000, -311.000000)" fill="#F58D85">
+            <g id="welcome" transform="translate(-2.000000, 29.000000)">
+                <path d="M0,275 C37.3333333,342.333333 88.6666667,396.333333 154,437 C219.333333,477.666667 308,506.333333 420,523 L418,788 L4,788 L0,275 Z" id="bg" transform="translate(210.000000, 531.500000) scale(-1, 1) translate(-210.000000, -531.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

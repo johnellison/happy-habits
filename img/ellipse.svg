@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="414px" height="432px" viewBox="0 0 414 432" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <g id="Sprint-I" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(0.000000, -801.000000)" fill="#383A4F">
+            <g id="challenge" transform="translate(-2.000000, 801.000000)">
+                <path d="M0,16 C47.319331,5.33333333 115.22898,0 203.728946,0 C292.228913,0 363.652597,5.33333333 418,16 L418,414 C364.796926,426 294.920699,432 208.371321,432 C121.821942,432 52.3648353,426 0,414 L0,16 Z" id="Rectangle"></path>
+            </g>
+        </g>
+    </g>
+</svg>

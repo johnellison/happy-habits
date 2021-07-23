@@ -3,66 +3,72 @@
   <head>
     <meta charset="utf-8">
     <title>Happy Habits</title>
+    <link href="//db.onlinewebfonts.com/c/ddc1686f692c5f18f85f67340500f050?family=Bitstream+Cooper" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/graphik?styles=44656,44658" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <main>
       <!-- WELCOME -->
-      <section class="welcome">
-        <header class="welcome__header">
-          <h1>Happy Habits</h1>
-          <p class="lead">Discover fun, science-backed ways to build a happier life in 20-mins or less.</p>
-        </header>
-        <div class="welcome__video">
-          <iframe src="https://www.videoask.com/fw6fq40c3" allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;" width="100%" height="440px" style="border: none; border-radius: 24px"></iframe>
-        </div>
-        <div class="cta">
-          <form class="cta__form" action="#" class="newsletter">
-            <div class="input-group">
-              <input type="email" placeholder="your email here">
-              <input type="submit">
-            </div>
-          </form>
-          <p>Get happy habits delivered to your inbox every Friday.</p>
-        </div>
-      </section>
+        <section class="welcome">
+          <header class="welcome__header">
+            <h1>Happy Habits</h1>
+            <p class="lead">Discover fun, science-backed ways to build a happier life in 20-mins or less.</p>
+            <form class="cta__form" action="#" class="newsletter">
+              <div class="input-group">
+                <input type="email" placeholder="your email here">
+                <input type="submit">
+              </div>
+            </form>
+            <p>Get a new happy habit delivered to your inbox every Friday.</p>
+          </header>
+          <div class="welcome__video">
+            <iframe src="https://www.videoask.com/fw6fq40c3" allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;" width="100%" height="440px" style="border: none; border-radius: 24px"></iframe>
+          </div>
+        </section>
 
       <!-- CHALLENGE -->
       <section class="challenge">
-        <header class="challenge__header">
+        <header class="challenge__content">
           <i class="emoji">😲</i>
           <p class="super">The science is clear. <br>What people believe about happiness is usually wrong.</p>
+          <a href="https://www.videoask.com/f1ge77tf5" target="_blank" class="link--marker">learn more</a>
         </header>
-        <a href="https://www.videoask.com/f1ge77tf5" target="_blank" class="link--marker">learn more</a>
       </section>
 
       <!-- CHANGE IS HARD -->
       <section class="change">
-        <i class="emoji">😫</i>
-        <p class="super">Even if you know what to do, turning insights into lasting change can be frustrating and hard!</p>
-        <a href="https://www.videoask.com/fnt6a3kcf" target="_blank" class="link--marker">learn more</a>
+        <header class="change__content">
+          <i class="emoji">😫</i>
+          <p class="super">Even if you know what to do, turning insights into lasting change can be frustrating and hard!</p>
+          <a href="https://www.videoask.com/fnt6a3kcf" target="_blank" class="link--marker">learn more</a>
+        </header>
       </section>
 
       <!-- PRODUCT SEGUE -->
       <section class="product-segue">
-        <i class="emoji">💥</i>
-        <p class="super">We are distilling the best insights from positive psychology and behavior science into a series of products.</p>
+        <header class="product-segue__content">
+          <i class="emoji">💥</i>
+          <p class="super">We are distilling the best insights from positive psychology and behavior science into a series of products.</p>
+        </header>
       </section>
 
       <!-- PRODUCTS -->
       <section class="products">
         <header class="products__header">
           <h2>Products</h2>
-          <p>Let’s build Happy Habits together…</p>
         </header>
 
         <!-- NEWSLETTER -->
         <div class="product">
-          <header class="product__header">
+          <header class="product__header product__header--one">
             <i class="number">1</i>
             <h3>Free weekly newsletter</h3>
-            <p>Sign up to receive a new happy habit, behavior hacks, and meet leading researchers. <strong>Delivered every Friday.</strong></p>
+            <p>Sign up to receive a new happy habit, behavior hacks, meet leading researchers and more... <strong>Delivered every Friday.</strong></p>
           </header>
           <div class="cta product__content">
             <form class="cta__form" action="#" class="newsletter">
@@ -75,26 +81,26 @@
         </div>
 
         <!-- DECK OF CARDS -->
-        <div class="product">
-          <header class="product__header">
+        <div class="product product--half">
+          <header class="product__header product__header--half">
             <i class="number">2</i>
             <h3>A physical deck of cards</h3>
             <p>A 52-card deck containing science-backed behaviors, research concepts, habit hacks and more… <strong>launching on Kickstarter soon!</strong></p>
           </header>
           <figure class="product-image__container">
-            <img class="product-image--full" src="img/card-mockup-grid@2x.jpg" alt="mockup of happy habits cards">
+            <img class="product-image product-image--full" src="img/card-mockup-grid@2x.jpg" alt="mockup of happy habits cards">
           </figure>
         </div>
 
-        <!-- DECK OF CARDS -->
-        <div class="product">
-          <header class="product__header">
+        <!-- APP -->
+        <div class="product product--half">
+          <header class="product__header product__header--half--odd">
             <i class="number">3</i>
             <h3>Simple &amp; fun app</h3>
             <p>Discover new behaviors, setup reminders, work with coaches and connect with the community.<strong> Prototype in progress!</strong></p>
           </header>
 
-          <figure class="product-image__container">
+          <figure class="product-image__container--odd">
             <img class="product-image" src="img/happy-habits-app-wave@2x.jpg" alt="mockup of happy habits app">
           </figure>
         </div>
@@ -110,51 +116,67 @@
 
           <!-- BJ -->
           <div class="happy-folk__item">
-            <img src="img/bj-fogg@2x.jpg" class="happy-folk__headshot" alt="Dr. BJ Fogg headshot">
-            <h4 class="happy-folk__name"><a href="https://www.bjfogg.com/">BJ Fogg, PhD</a></h4>
+            <a href="https://www.bjfogg.com/">
+              <img src="img/bj-fogg@2x.jpg" class="happy-folk__headshot" alt="Dr. BJ Fogg headshot">
+              <h4 class="happy-folk__name">BJ Fogg, PhD</h4>
+            </a>
             <p class="happy-folk__place">Stanford University</p>
           </div>
 
           <!-- Tara Brach -->
           <div class="happy-folk__item">
-            <img src="img/tara-brach@2x.jpg" class="happy-folk__headshot" alt="Dr. Tara Brach headshot">
-            <h4 class="happy-folk__name"><a href="https://www.tarabrach.com">Tara Brach, PhD</a></h4>
+            <a href="https://www.tarabrach.com">
+              <img src="img/tara-brach@2x.jpg" class="happy-folk__headshot" alt="Dr. Tara Brach headshot">
+              <h4 class="happy-folk__name">Tara Brach, PhD</h4>
+            </a>
             <p class="happy-folk__place">Fielding Institute</p>
           </div>
 
           <div class="happy-folk__item">
-            <img src="img/thich-nhat-hanh@2x.jpg" class="happy-folk__headshot" alt="Thich Nhat Hanh headshot">
-            <h4 class="happy-folk__name"><a href="https://plumvillage.org/about/thich-nhat-hanh/">Thích Nhất Hạnh</a></h4>
+            <a href="https://plumvillage.org/about/thich-nhat-hanh/">
+              <img src="img/thich-nhat-hanh@2x.jpg" class="happy-folk__headshot" alt="Thich Nhat Hanh headshot">
+              <h4 class="happy-folk__name">Thích Nhất Hạnh</h4>
+            </a>
             <p class="happy-folk__place">Plum Village</p>
           </div>
 
           <div class="happy-folk__item">
-            <img src="img/lauri-santos@2x.jpg" class="happy-folk__headshot" alt="Dr. Lauri Santos headshot">
-            <h4 class="happy-folk__name"><a href="https://www.drlauriesantos.com/">Lauri Santos, PhD</a></h4>
+            <a href="https://www.drlauriesantos.com/">
+              <img src="img/lauri-santos@2x.jpg" class="happy-folk__headshot" alt="Dr. Lauri Santos headshot">
+              <h4 class="happy-folk__name">Lauri Santos, PhD</h4>
+            </a>
             <p class="happy-folk__place">Yale University</p>
           </div>
 
           <div class="happy-folk__item">
-            <img src="img/ethan-kross@2x.jpg" class="happy-folk__headshot" alt="Dr. Ethan Kross headshot">
-            <h4 class="happy-folk__name"><a href="https://www.ethankross.com/">Ethan Kross, PhD</a></h4>
+            <a href="https://www.ethankross.com/">
+              <img src="img/ethan-kross@2x.jpg" class="happy-folk__headshot" alt="Dr. Ethan Kross headshot">
+              <h4 class="happy-folk__name">Ethan Kross, PhD</h4>
+            </a>
             <p class="happy-folk__place">University of Michigan</p>
           </div>
 
           <div class="happy-folk__item">
-            <img src="img/william-irvine@2x.jpg" class="happy-folk__headshot" alt="Dr. William Irvine headshot">
-            <h4 class="happy-folk__name"><a href="https://www.williambirvine.com/bio">William Irvine, PhD</a></h4>
+            <a href="https://www.williambirvine.com/bio">
+              <img src="img/william-irvine@2x.jpg" class="happy-folk__headshot" alt="Dr. William Irvine headshot">
+              <h4 class="happy-folk__name">William Irvine, PhD</h4>
+            </a>
             <p class="happy-folk__place">Wright State University</p>
           </div>
 
           <div class="happy-folk__item">
-            <img src="img/sarah-algoe@2x.jpg" class="happy-folk__headshot" alt="Dr. Sarah Algoe headshot">
-            <h4 class="happy-folk__name"><a href="https://www.saraalgoe.com/">Sarah Algoe, PhD</a></h4>
+            <a href="https://www.saraalgoe.com/">
+              <img src="img/sarah-algoe@2x.jpg" class="happy-folk__headshot" alt="Dr. Sarah Algoe headshot">
+              <h4 class="happy-folk__name">Sarah Algoe, PhD</h4>
+            </a>
             <p class="happy-folk__place">University of North Caroline</p>
           </div>
 
           <div class="happy-folk__item">
-            <img src="img/wim-hof@2x.jpg" class="happy-folk__headshot" alt="Wim Hof headshot">
-            <h4 class="happy-folk__name"><a href="https://www.wimhofmethod.com/">Wim Hof</a></h4>
+            <a href="https://www.wimhofmethod.com/">
+              <img src="img/wim-hof@2x.jpg" class="happy-folk__headshot" alt="Wim Hof headshot">
+              <h4 class="happy-folk__name">Wim Hof</h4>
+            </a>
             <p class="happy-folk__place">Innerfire</p>
           </div>
 
@@ -164,32 +186,38 @@
 
       <!-- COLLABORATE -->
       <section class="collaborate">
-        <i class="emoji">🤩</i>
-        <p class="super">We want to collaborate with YOU to make Happy Habits fun, easy and effective.</p>
-        <a href="https://www.videoask.com/f5ofpy6cl" target="_blank" class="link--marker">learn more</a>
+        <header class="collaborate__content">
+          <i class="emoji">🤩</i>
+          <p class="super">We want to collaborate with YOU to make Happy Habits fun, easy and effective.</p>
+          <a href="https://www.videoask.com/f5ofpy6cl" target="_blank" class="link--marker">learn more</a>
+        </header>
       </section>
 
       <!-- FINAL CTA -->
       <section class="final-cta">
-        <header class="final-cta__header">
-          <h2>Get Happy Habits straight to your inbox!</h2>
-          <p>Join 8 other wonderful humans discovering fun ways to grow happiness in 20-mins or less.</p>
-        </header>
-        <img src="img/founding-members.jpg" alt="founding members">
+        <div class="final-cta__content">
+          <header class="final-cta__header">
+            <h2>Get Happy Habits straight to your inbox!</h2>
+            <p>Join 8 other wonderful humans discovering fun ways to grow happiness in 20-mins or less.</p>
+          </header>
+          <img class="member-wall" src="img/founding-members.jpg" alt="founding members">
 
-        <div class="cta">
-          <form class="cta__form" action="#" class="newsletter">
-            <div class="input-group">
-              <input type="email" placeholder="your email here">
-              <input type="submit">
-            </div>
-          </form>
-          <p>Get happy habits delivered to your inbox every Friday.</p>
+          <div class="cta">
+            <form class="cta__form" action="#" class="newsletter">
+              <div class="input-group">
+                <input type="email" placeholder="your email here">
+                <input type="submit">
+              </div>
+            </form>
+            <p>Get a new happy habit delivered to your inbox every Friday.</p>
+          </div>
         </div>
       </section>
+      <!-- HAPPINESS DIAL -->
       <section class="happiness-dial">
         <i class="emoji">🤔</i>
-        <p class="super">What if you had a dial in your mind that you could use to turn up your happiness by 20%?</p>
+          <p class="super">What if you had a dial in your mind that you could use to turn up your happiness by 20%?</p>
+          <i>Psst... you do!</i>
       </section>
 
     </main>
